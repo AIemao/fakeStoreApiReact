@@ -32,11 +32,10 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-<<<<<<< HEAD
+
 <img src="/imgs/screenshot.JPG" alt style="max-width: 100%"></img>
-=======
-<img src="./screenshot.jpg" alt style="max-width: 100%">
->>>>>>> fab9d45c1268f3360704811e607321c924e83ea4
+
+
 
 ### Links
 
