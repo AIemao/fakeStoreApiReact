@@ -39,8 +39,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL da solução: [GITHUB - API FAKE STORE - REACT](https://github.com/AIemao/fakeStoreApiReact)
+- URL do site ao vivo: [SITE - API FAKE STORE - REACT](https://aiemao.github.io/fakeStoreApiReact/)
 
 ## Meu processo
 
