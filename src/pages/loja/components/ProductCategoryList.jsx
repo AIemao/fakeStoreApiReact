@@ -18,7 +18,7 @@ export default function CategoriaProdutos({ category }) {
         {!products && <p>Carregando ...</p>}
         {products &&
           products.map((product) => (
-            <Col md={4} className="my-3 d-flex align-items-stretch">
+            <Col md={2} className="my-1 d-flex align-items-flex-start">
               <ProductCard product={product} />
             </Col>
           ))}

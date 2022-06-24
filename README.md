@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Fake Store API - REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafio de integrar uma API "FAKE STORE API" [desafio do componente de cartão de visualização NFT no Frontend Mentor](https://fakestoreapi.com/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+- [Visão geral](#visão geral)
+  - [O desafio](#the-challenge)
+  - [Captura de tela](#captura de tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento contínuo)
+  - [Recursos úteis](#useful-resources)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Visão geral
 
-### `npm test`
+Integração de produtos, login de adm (com criação de usuario e produtos)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### O desafio
 
-### `npm run build`
+Os usuários devem ser capazes de:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Visualize o layout da tela com os produtos da FAKE STORE API
+- Interagir com a tela com os elementos do CRUD
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Captura de tela
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](./FAKESTOREAPI.JPG.jpg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
+- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Meu processo
 
-## Learn More
+### Construído com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Marcação HTML5 semântica
+- Propriedades personalizadas de CSS
+- Flexbox
+- Grade CSS
+- Fluxo de trabalho mobile-first
+- [React](https://reactjs.org/) - biblioteca JS
+- [Next.js](https://nextjs.org/) - Estrutura de reação
+- [Componentes estilizados](https://styled-components.com/) - Para estilos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Nota: Estes são apenas exemplos. Exclua esta nota e substitua a lista acima por suas próprias escolhas**
 
-### Code Splitting
+### O que eu aprendi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Use esta seção para recapitular alguns de seus principais aprendizados ao trabalhar neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
 
-### Analyzing the Bundle Size
+Para ver como você pode adicionar snippets de código, veja abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```html
+<h1>Alguns códigos HTML dos quais me orgulho</h1>
+```
+``` css
+.orgulhoso-deste-css {
+  cor: papayawhip;
+}
+```
+``` js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-### Making a Progressive Web App
+Se você quiser mais ajuda para escrever markdown, recomendamos conferir [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Observação: exclua esta nota e o conteúdo desta seção e substitua por seus próprios aprendizados.**
 
-### Advanced Configuration
+### Desenvolvimento contínuo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Estes podem ser conceitos com os quais você ainda não está completamente confortável ou técnicas que você achou úteis que você deseja refinar e aperfeiçoar.
 
-### Deployment
+**Observação: exclua esta nota e o conteúdo desta seção e substitua por seus próprios planos de desenvolvimento contínuo.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Recursos úteis
 
-### `npm run build` fails to minify
+- [Recurso de exemplo 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Gostei muito deste modelo e vou usá-lo daqui para frente.
+- [Example resource 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Eu recomendo para quem ainda está aprendendo este conceito.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Nota: Apague esta nota e substitua a lista acima por recursos que o ajudaram durante o desafio. Eles podem ser úteis para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando fizer uma retrospectiva deste projeto no futuro.**
+
+## Autor
+
+- Site - [Adicione seu nome aqui](https://www.your-site.com)
+- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/seunomedeusuário)
+- Twitter - [@seunome de usuário](https://www.twitter.com/seunome de usuário)
+
+**Observação: exclua esta nota e adicione/remova/edite as linhas acima com base nos links que deseja compartilhar.**
+
+## Agradecimentos
+
+É aqui que você pode dar uma dica de chapéu para quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
+
+**Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**

@@ -9,7 +9,7 @@ export default function ProdutoCard({ product, description }) {
         <Card.Title>
           <Link to={`/produtos/${product.id}`}>{product.title}</Link>
         </Card.Title>
-        <Card.Subtitle>{product.price}</Card.Subtitle>
+        <Card.Subtitle>$ {product.price}</Card.Subtitle>
         {description && <Card.Text>{product.description}</Card.Text>}
         <Button as={Link} to={`/produtos/${product.id}`} variant="primary">
           Detalhes
