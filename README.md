@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 ### Captura de tela
 
 
-<img src="/imgs/screenshot.JPG" alt style="max-width: 100%"></img>
+<img src="/imgs/screenshot.PNG" alt style="max-width: 100%"></img>
 
 
 
