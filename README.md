@@ -32,9 +32,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./FAKESTOREAPI.JPG.jpg)
-
-
+[FAKESTOREAPI](https://user-images.githubusercontent.com/84292058/175438267-3e7cc915-8ad8-401b-b368-207b1a93c466.JPG)
 
 ### Links
 
