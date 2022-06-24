@@ -32,7 +32,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![FAKESTOREAPI](./screenshot.jpg)
+<img src="./screenshot.jpg" alt style="max-width: 100%">
 
 ### Links
 
