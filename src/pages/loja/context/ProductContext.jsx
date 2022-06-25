@@ -23,18 +23,15 @@ export default function ProductContext({ children }) {
       .then((json) => setCategories(json));
   };
 
-    const get = async (id) => {
-      const response = await fetch(`https://fakestoreapi.com/products/${id}`);
-      return response.json();
-    };
+  const get = async (id) => {
+    const response = await fetch(`https://fakestoreapi.com/products/${id}`);
+    return response.json();
+  };
 
-
-    const getProductsByCategory = async (category) => {
-      const response = await fetch(`https://fakestoreapi.com/products/category/${category}?limit=3`);
-      return response.json();
-    };
-
-
+  const getProductsByCategory = async (category) => {
+    const response = await fetch(`https://fakestoreapi.com/products/category/${category}?limit=3`);
+    return response.json();
+  };
 
   useEffect(() => {
     list();

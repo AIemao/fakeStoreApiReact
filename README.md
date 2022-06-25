@@ -1,23 +1,21 @@
 # Fake Store API - REACT
 
-Desafio de integrar uma API "FAKE STORE API" [desafio do componente de cartão de visualização NFT no Frontend Mentor](https://fakestoreapi.com/).
+Desafio de integrar uma API "FAKE STORE API" [Link](https://fakestoreapi.com/).
 
 
 ## Índice
 
-- [Visão geral](#visão geral)
+- [Visão geral](#visão-geral)
   - [O desafio](#the-challenge)
-  - [Captura de tela](#captura de tela)
+  - [Captura de tela](#captura-de-tela)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
+  - [Construído com](#construído-com)
   - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento contínuo)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
   - [Recursos úteis](#useful-resources)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
-**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
 
 ## Visão geral
 
@@ -40,70 +38,71 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [GITHUB - API FAKE STORE - REACT](https://github.com/AIemao/fakeStoreApiReact)
-- URL do site ao vivo: [SITE - API FAKE STORE - REACT](https://aiemao.github.io/fakeStoreApiReact/)
 
 ## Meu processo
 
+ 1 - Teamplate das telas
+ 2 - Organização de pastas
+ 3 - Criação dos componentes
+ 4 - Rotas com Outlet
+ 5 - API
+
 ### Construído com
 
-- Marcação HTML5 semântica
+- React jsx
 - Propriedades personalizadas de CSS
-- Flexbox
-- Grade CSS
-- Fluxo de trabalho mobile-first
+- API FAKE STORE
+- Router Dom
+- HOOKS (State, Effect, Context, Params)
 - [React](https://reactjs.org/) - biblioteca JS
-- [Next.js](https://nextjs.org/) - Estrutura de reação
+- [Fake Store Api](https://fakestoreapi.com/) - Estrutura de reação
 - [Componentes estilizados](https://styled-components.com/) - Para estilos
 
-**Nota: Estes são apenas exemplos. Exclua esta nota e substitua a lista acima por suas próprias escolhas**
 
 ### O que eu aprendi
 
-Use esta seção para recapitular alguns de seus principais aprendizados ao trabalhar neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+A manipulacao do Context com Effect
 
-Para ver como você pode adicionar snippets de código, veja abaixo:
 
-```html
-<h1>Alguns códigos HTML dos quais me orgulho</h1>
+```React
+export default function CategoriaProdutos({ category }) {
+  const [products, setProducts] = useState();
+  const { getProductsByCategory } = useContext(Context);
+
+  useEffect(() => {
+    getProductsByCategory(category).then((response) => setProducts(response));
+  }, [category]);
+
+  return (
+    <div>
+      <h3>{category}</h3>
+      <Row>
+        {!products && <p>Carregando ...</p>}
+        {products &&
+          products.map((product) => (
+            <Col md={2} className="my-1 d-flex align-items-flex-start">
+              <ProductCard product={product} />
+            </Col>
+          ))}
+      </Row>
+    </div>
+  );
 ```
-``` css
-.orgulhoso-deste-css {
-  cor: papayawhip;
-}
-```
-``` js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-Se você quiser mais ajuda para escrever markdown, recomendamos conferir [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
-
-**Observação: exclua esta nota e o conteúdo desta seção e substitua por seus próprios aprendizados.**
 
 ### Desenvolvimento contínuo
 
-Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Estes podem ser conceitos com os quais você ainda não está completamente confortável ou técnicas que você achou úteis que você deseja refinar e aperfeiçoar.
+Pracitar Outlet, Context e Effect. 
+Conexao com DB (SQL SERVER, MONGODB)
 
-**Observação: exclua esta nota e o conteúdo desta seção e substitua por seus próprios planos de desenvolvimento contínuo.**
 
 ### Recursos úteis
 
-- [Recurso de exemplo 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Gostei muito deste modelo e vou usá-lo daqui para frente.
-- [Example resource 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Eu recomendo para quem ainda está aprendendo este conceito.
-
-**Nota: Apague esta nota e substitua a lista acima por recursos que o ajudaram durante o desafio. Eles podem ser úteis para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando fizer uma retrospectiva deste projeto no futuro.**
+- [React documentacao](https://pt-br.reactjs.org/) - Principais conceito os 12 topicos, muito bom. 12. Pensando do jeito React!!
+- [React Bootstrap](https://react-bootstrap.github.io/) - Componentes...
+- [Router Dom v6](https://reactrouter.com/docs/en/v6/getting-started/overview) - Primeiro contato com o Outlet, quebrando ainda mais o componente!!
+- [React Context](https://www.devmedia.com.br/react-js-passando-dados-com-context-api/42904) - Artigo que me deu outra visão do Context
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
-- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/seunomedeusuário)
-- Twitter - [@seunome de usuário](https://www.twitter.com/seunome de usuário)
+- Site - [Celio Junior](https://www.linkedin.com/in/celio-junior-152529193/)
 
-**Observação: exclua esta nota e adicione/remova/edite as linhas acima com base nos links que deseja compartilhar.**
-
-## Agradecimentos
-
-É aqui que você pode dar uma dica de chapéu para quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
-
-**Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**
